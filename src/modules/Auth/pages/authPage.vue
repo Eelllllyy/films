@@ -14,11 +14,8 @@
   </main>
 </section>
 </template>
-
 <script setup lang="ts">
-import {ref} from 'vue'
 import {signIn, login, password} from '@/modules/Auth/AuthService'
-
 </script>
 <style scoped>
 .section-auth{
@@ -57,7 +54,6 @@ input, button{
 }
 input{
   padding-left: 20px;
-  
 }
 button{
   background-color: rgba(190, 91, 25, 0.897);

@@ -5,7 +5,6 @@ export const filmDate = ref<number | null>()
 export const filmGrade = ref<number | null>()
 export const filmComment = ref<string>('')
 export const allFilms = ref<any>([])
-
 export const addFilm = () => {
   let film :object = {
     title : filmName.value,
